@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puissance 4</title>
+</head>
+<body>
+
+<p>Room <span class="room"></span></p>
+<textarea name="" id="room"></textarea>
+<button onclick="join()">join</button>
+<br>
+<p>Vous êtes : <strong>joueur <span class="player-num"></span></strong></p>
+<p id="message"></p>
+<br>
+<div id="puissance4"></div>
+
+</body>
+
+<style>
+    #puissance4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .cell {
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"
+        integrity="sha384-2huaZvOR9iDzHqslqwpR87isEmrfxqyWOF7hr7BY6KG0+hVKLoEXMPUJw3ynWuhO"
+        crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+</html>
