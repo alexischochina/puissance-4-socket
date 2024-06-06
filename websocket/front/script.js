@@ -1,7 +1,8 @@
 let room = '';
 let socketid = '';
 const roomArea = document.querySelector('#room');
-const socket = io('http://localhost:3000');
+//const socket = io('http://localhost:3000');
+const socket = io('https://puissance-4-socket-1.onrender.com/');
 socket.on('connect', () => {
     console.log('Connected');
 });
