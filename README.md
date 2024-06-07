@@ -1,4 +1,5 @@
 # puissance-4-socket
+Développé par Alexis CHOCHINA et Cedric JAMME.
 
 ## Pour lancer le projet en local :
 Dans le dossier backend :
